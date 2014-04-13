@@ -1,0 +1,30 @@
+{
+	"name": "mean-app",
+	"description": "This is my mean test app",
+	"version": "0.0.1",
+	"main": "app.js",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "4.0.0",
+		"ejs": "1.0.0",
+		"mysql": "*",
+		"jade":"*",
+		"sequelize": "1.7.0",
+		"lodash": "2.4.1",
+		"morgan": "~1.0.0",
+    	"body-parser": "~1.0.0",
+    	"method-override": "~1.0.0",
+    	"static-favicon": "~1.0.0",
+    	"express-session": "~1.0.0",
+    	"cookie-parser": "~1.0.0",
+    	"cookie-session": "~1.0.0",
+    	"response-time": "~1.0.0",
+    	"errorhandler": "~1.0.0",
+    	"connect-timeout": "~1.0.0",
+    	"vhost": "~1.0.0",
+    	"csurf": "~1.0.0"
+	}
+}
