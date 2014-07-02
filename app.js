@@ -10,36 +10,16 @@ var app             = express();
 var logger          = require('morgan');
 var bodyParser      = require('body-parser');
 var methodOverride  = require('method-override');
-
 var path            = require('path');
 var mysql           = require('mysql');
 
 // DATABASE
-// var connection = mysql.createConnection({
-//   host     : 'localhost',
-//   user     : 'root',
-//   password : 'Passw0rd!'
-// });
-
 var connection = mysql.createConnection({
   'host':'localhost',
   'port':3306,
   'user':'root',
   'password':'Passw0rd!'
 });
-// var connection = mysql.createConnection('mysql://root:Passw0rd!@127.0.0.1:3306/data_base?debug=true');
-//     connection.connect(function(err){
-//         if (err) {
-//             console.log(err);
-//         }
-//     }
-// );
-
-// connection.query("SET time_zone='+"+new Date().getTimezoneOffset()/60*(-1)+":00'", 
-//   function(error, result) {
-//     if (error) { console.log('Query error : '+error); }
-//   }
-// );
 
 connection.query('USE sakila');
 
@@ -70,6 +50,10 @@ app.use(methodOverride());          // simulate DELETE and PUT
 //   console.log('Server listening on port ' + app.get('port'));
 // });
 app.get('/', function(req, res){
+  res.render('index');
+});
+
+app.get('/customer/all', function(req, res){
   connection.query('SELECT * FROM sakila.customer', function(err, rows){
     console.log(rows);
     res.render('customer', {customer : rows});

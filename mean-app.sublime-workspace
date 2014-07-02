@@ -1,0 +1,180 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"ul",
+				"ul	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/IEUser/mean-app/views/index.html",
+		"/C/Users/IEUser/mean-app/views/customer.html",
+		"/C/Users/IEUser/mean-app/views/layout.html",
+		"/C/Users/IEUser/mean-app/app.js",
+		"/C/Users/IEUser/mean-app/package.json",
+		"/C/Users/IEUser/mean-app/routes/index.js",
+		"/C/Users/IEUser/mean-app/models/user.js",
+		"/C/Users/IEUser/mean-app/models/task.js",
+		"/C/Users/IEUser/mean-app/models/customer.js",
+		"/C/Users/IEUser/mean-app/models/index.js",
+		"/C/Users/IEUser/mean-app/.gitignore",
+		"/C/Users/IEUser/mean-app/views/customers",
+		"/C/Users/IEUser/mean-app/package.json.txt",
+		"/C/Users/IEUser/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/IEUser/mean-app/.bowerrc",
+		"/C/Users/IEUser/mean-app/views/index.jade",
+		"/C/Users/IEUser/AppData/Local/Temp/Temp1_sequelize-expressjs-example-master.zip/sequelize-expressjs-example-master/package.json",
+		"/C/Users/IEUser/mytestapp/package.json",
+		"/C/Users/IEUser/mean-stack-todo-master/package.json",
+		"/C/Users/IEUser/mean-app/views/layout.jade",
+		"/C/Users/IEUser/mean-stack-todo-master/views/layout.jade",
+		"/C/Users/IEUser/mytestapp/views/index.jade",
+		"/C/Users/IEUser/mytestapp/views/layout.jade",
+		"/C/Users/IEUser/mytestapp/app.js",
+		"/C/Users/IEUser/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/IEUser/mytestapp/.bowerrc.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sequelize",
+			"World",
+			"delete",
+			"ctrl+d",
+			"require",
+			"process",
+			"');\n",
+			"\n ",
+			"http",
+			";\n",
+			"tools",
+			"+"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 145.0,
+	"status_bar_visible": true
+}
